@@ -12,7 +12,7 @@ The architecture for this workshop is the following:
 
 ## Description
 
-Heart Disease Projetc hosted in AWS
+Heart Disease Project is hosted in AWS
 This project uses [Cleveland Heart Disease dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/cleveland.data) taken from the [UCI repository](https://archive.ics.uci.edu/ml/datasets/Heart+Disease).  The dataset consists of 303 records that measure an individual's features (age, heart rate, sex, blood pressure, etc.).  As depicted above, you will first use SageMaker’s linear learner algorithm to train and deploy a model.  Once the model is deployed, you can use AWS API Gateway to get real time prediction for a set of data.  If the model predicts the presence of heart disease, an SNS notification is sent to the user e-mail address.
 
 
